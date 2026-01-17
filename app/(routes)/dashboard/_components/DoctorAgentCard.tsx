@@ -5,6 +5,7 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { IconArrowRight } from '@tabler/icons-react'
 import React, { useEffect, useState } from 'react'
+import { Loader, Loader2Icon } from "lucide-react"
 
 export type doctorAgent={
     id:number,
@@ -131,8 +132,8 @@ function DoctorAgentCard({ doctorAgent }: props) {
           onClick={handleConsultation}
           disabled={loading}
         >
-          {loading ? "Loading..." : !canAccess ? "Upgrade to Access" : "Start Consultation"} 
-          <IconArrowRight />
+          {loading ? "Loading..." : !canAccess ? "Upgrade to Access" : "Start Consultation"}
+         {loading?<Loader2Icon className="animate-spin"/>:<IconArrowRight />}
         </Button>
       </div>
     </div>
