@@ -4,7 +4,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { db } from "@/config/db";
 import { eq } from "drizzle-orm";
 
-const REPORT_GEN_PROMPT=`You are an AI Medical Voice Agent that just finished a voice conversation with a user. Based on doctor AI agent info and Conversation between AI medical Agent and user, generate a structured report with the following fields:
+const REPORT_GEN_PROMPT=`You are on MedVoice Nexus AI that just finished a voice conversation with a user. Based on doctor AI agent info and Conversation between AI medical Agent and user, generate a structured report with the following fields:
 
 1. sessionId: unique session identifier
 2. agent: the medical specialist name (e.g., "General Physician AI")

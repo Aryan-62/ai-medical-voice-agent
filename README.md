@@ -1,6 +1,6 @@
-🏥 AI Medical Voice Agent
+🏥 MedVoice Nexus
 
-AI-powered medical voice agent built with Next.js, React, and Clerk authentication for seamless patient consultations.
+MedVoice Nexus built with Next.js, React, and Clerk authentication for seamless patient consultations.
 
 ![Next.js](https://img.shields.io/badge/Next.js-14-black)
 ![React](https://img.shields.io/badge/React-18-blue)
@@ -28,7 +28,7 @@ AI-powered medical voice agent built with Next.js, React, and Clerk authenticati
 👨‍💻 Developer
 Aryan
 GitHub: @Aryan-62
-Project: AI Medical Voice Agent
+Project: MedVoice Nexus - AI-Powered Multi-Specialist Voice Medical Agent
 ⭐ Star this repo if you find it helpful!
 💬 Found a bug? Open an issue
 🤝 Want to contribute? Pull requests are welcome!

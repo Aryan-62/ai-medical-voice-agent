@@ -214,7 +214,7 @@ function MedicalVoiceAgent() {
             className='h-[100px] w-[100px] object-cover rounded-full'
           />
           <h2 className='mt-2 text-lg'>{sessionDetails?.selectedDoctor?.specialist}</h2>
-          <p className='text-sm text-gray-400'>AI Medical Voice Agent</p>
+          <p className='text-sm text-gray-400'>MedVoice Nexus</p>
         
           <div className='mt-12 overflow-y-auto flex flex-col items-center px-10 md:px-28 lg:px-52 xl:px-72'>
             {messages?.slice(-4).map((msg: messages, index) => (
